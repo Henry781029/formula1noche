@@ -60,20 +60,23 @@ public class Vistaregistro extends javax.swing.JFrame {
 
         jLabel7.setText("Salario:");
 
-        tvescuderia.setText("jTextField1");
+        tvescuderia.setBackground(new java.awt.Color(102, 255, 255));
 
-        tvnombreescuderia.setText("jTextField1");
+        tvnombreescuderia.setBackground(new java.awt.Color(102, 255, 255));
 
-        tvpresupuesto.setText("jTextField1");
+        tvpresupuesto.setBackground(new java.awt.Color(102, 255, 255));
 
-        tvmotor.setText("jTextField1");
+        tvmotor.setBackground(new java.awt.Color(102, 255, 255));
 
-        tvnombre.setText("jTextField1");
+        tvnombre.setBackground(new java.awt.Color(102, 255, 102));
 
-        tvapellido.setText("jTextField1");
+        tvapellido.setBackground(new java.awt.Color(102, 255, 102));
 
-        tvsalario.setText("jTextField1");
+        tvsalario.setBackground(new java.awt.Color(102, 255, 102));
 
+        btingresar.setBackground(new java.awt.Color(153, 153, 0));
+        btingresar.setFont(new java.awt.Font("Dubai Medium", 1, 12)); // NOI18N
+        btingresar.setForeground(new java.awt.Color(0, 0, 0));
         btingresar.setText("INGRESAR");
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/formula1/assets/fondo1.PNG"))); // NOI18N

@@ -52,14 +52,14 @@ public class ControladorHome implements ActionListener{
         }else{
             //si esta vacia la busqueda si no existe
             Vistaregistro vistaregistro = new Vistaregistro(); 
-            
             vistaregistro.setVisible(true);
             vistahome.setVisible(false);
             
+            ControladorRegistro controladorregistro =new ControladorRegistro(escuderia, piloto, vistaregistro);
+            
         }
         
-        
-        
+         
     }
          
 }

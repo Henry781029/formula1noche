@@ -1,18 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package formula1;
 
-import formula1.controladores.Controlador;
-import formula1.modelos.ModeloBD;
-import formula1.vistas.Vista;
+import formula1.controladores.ControladorHome;
+import formula1.modelos.Escuderia;
+import formula1.modelos.Piloto;
+import formula1.vistas.Vistahome;
 
-/**
- *
- * @author 505
- */
+
 public class Formula1 {
 
     /**
@@ -20,10 +14,12 @@ public class Formula1 {
      */
     public static void main(String[] args) {
         
-        ModeloBD modelo = new ModeloBD();
-        Vista vista = new Vista();
-        vista.setVisible(true);
-        Controlador controlador = new Controlador(modelo,vista);
+    Escuderia escuderia = new Escuderia(); 
+    Piloto piloto = new Piloto();
+    Vistahome vistahome = new Vistahome();
+    vistahome.setVisible(true);
+    
+    ControladorHome controladorhome = new ControladorHome (escuderia, piloto, vistahome);
         
     }
     

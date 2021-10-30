@@ -45,7 +45,11 @@ public class Vistahome extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/formula1/assets/fondo1.PNG"))); // NOI18N
 
         tvidescuderia.setBackground(new java.awt.Color(0, 204, 153));
-        tvidescuderia.setText("jTextField1");
+        tvidescuderia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tvidescuderiaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -83,6 +87,10 @@ public class Vistahome extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void tvidescuderiaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tvidescuderiaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tvidescuderiaActionPerformed
 
     /**
      * @param args the command line arguments
